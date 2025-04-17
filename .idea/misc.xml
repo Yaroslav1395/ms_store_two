@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/services/ms_store_two_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_eureka_server/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_customer_service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_product_service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_order_service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_payment_service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_notification_service/pom.xml" />
+        <option value="$PROJECT_DIR$/services/ms_store_two_gateway/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

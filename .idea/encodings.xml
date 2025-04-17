@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_config_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_customer_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_eureka_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_notification_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_order_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_payment_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/ms_store_two_product_service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

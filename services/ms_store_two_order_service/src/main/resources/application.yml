@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: MS_STORE_TWO_ORDER_SERVICE
+  config:
+    import: optional:configserver:http://localhost:8888
