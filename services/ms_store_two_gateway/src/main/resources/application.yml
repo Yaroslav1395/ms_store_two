@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: MS_STORE_TWO_GATEWAY
+  config:
+    import: optional:configserver:http://localhost:8888
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "http://localhost:9098/realms/micro-services"
+
+

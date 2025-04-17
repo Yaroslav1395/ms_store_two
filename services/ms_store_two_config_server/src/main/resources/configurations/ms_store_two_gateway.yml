@@ -1,0 +1,29 @@
+server:
+  port: 8222
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: customer-service
+          uri: lb:http://MS_STORE_TWO_CUSTOMER_SERVICE
+          predicates:
+            - Path=/api/v1/customers/**
+        - id: order-service
+          uri: lb:http://MS_STORE_TWO_ORDER_SERVICE
+          predicates:
+            - Path=/api/v1/orders/**
+        - id: order-lines-service
+          uri: lb:http://MS_STORE_TWO_ORDER_SERVICE
+          predicates:
+            - Path=/api/v1/order-lines/**
+        - id: product-service
+          uri: lb:http://MS_STORE_TWO_PRODUCT_SERVICE
+          predicates:
+            - Path=/api/v1/products/**
+        - id: payment-service
+          uri: lb:http://MS_STORE_TWO_PAYMENT_SERVICE
+          predicates:
+            - Path=/api/v1/payments/**
